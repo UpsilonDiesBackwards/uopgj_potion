@@ -5525,7 +5525,7 @@ GameObject:
   - component: {fileID: 1031529361}
   - component: {fileID: 1031529362}
   m_Layer: 0
-  m_Name: Robot
+  m_Name: Player
   m_TagString: moveTowards
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
