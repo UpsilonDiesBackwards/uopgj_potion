@@ -3,7 +3,10 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Gravitable
+  - enemy
+  - moveTowards
   layers:
   - Default
   - TransparentFX
@@ -40,4 +43,19 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Floor
+    uniqueID: 1947097817
+    locked: 0
+  - name: Player
+    uniqueID: 34939721
+    locked: 0
+  - name: Walls
+    uniqueID: 3690330551
+    locked: 0
+  - name: Planets
+    uniqueID: 2714163763
+    locked: 0
+  - name: UI
+    uniqueID: 2497289735
     locked: 0
