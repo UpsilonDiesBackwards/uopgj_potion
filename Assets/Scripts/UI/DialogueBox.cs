@@ -44,7 +44,7 @@ public class DialogueBox : MonoBehaviour
     {
         foreach (char c in lines[index].ToCharArray())//breaks the string down into a character array
         {
-            textComp.text += c;
+            textComp.text += c; //the text componenet has the text that is being broken down into the individual letters
             yield return new WaitForSeconds(textSpeed);
         }
     }
@@ -53,9 +53,9 @@ public class DialogueBox : MonoBehaviour
     {
         if (index < lines.Length - 1)
         {
-            index++;
-            textComp.text = string.Empty;
-            StartCoroutine (TypeLines());
+            index++; //goes to the bext index amount aka the next line in the array
+            textComp.text = string.Empty; //makes the text empty so its not the previous line
+            StartCoroutine (TypeLines()); //types the lines thats a part of the current line in the arrray
         }
         else gameObject.SetActive(false);
     }
