@@ -10,15 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bf2edee5c58d82540a51f03df9d42094, type: 3}
-  m_Name: URP Lights
+  m_Name: URP Asset
   m_EditorClassIdentifier: 
   k_AssetVersion: 11
   k_AssetPreviousVersion: 11
   m_RendererType: 1
   m_RendererData: {fileID: 0}
   m_RendererDataList:
-  - {fileID: 11400000, guid: 587ce30cb1ee5584e9ac3edc755ac569, type: 2}
-  - {fileID: 11400000, guid: 5c89dba040678ce409c1b523251487af, type: 2}
+  - {fileID: 11400000, guid: a802eee2b56c0bc47ae6f6e4606d9458, type: 2}
   m_DefaultRendererIndex: 0
   m_RequireDepthTexture: 0
   m_RequireOpaqueTexture: 0
