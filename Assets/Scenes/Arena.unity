@@ -5521,7 +5521,6 @@ GameObject:
   - component: {fileID: 1031529353}
   - component: {fileID: 1031529352}
   - component: {fileID: 1031529356}
-  - component: {fileID: 1031529359}
   - component: {fileID: 1031529361}
   - component: {fileID: 1031529362}
   m_Layer: 0
@@ -5619,8 +5618,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 34939721
-  m_SortingLayer: 2
+  m_SortingLayerID: -604636745
+  m_SortingLayer: 3
   m_SortingOrder: 0
   m_Sprite: {fileID: -1305469512, guid: 4d8ec43599263414fa97e3f3abc835e8, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -5672,18 +5671,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &1031529359
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1031529351}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a0d0e46e9783ce3458b52451808497c9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!60 &1031529361
 PolygonCollider2D:
   m_ObjectHideFlags: 0
