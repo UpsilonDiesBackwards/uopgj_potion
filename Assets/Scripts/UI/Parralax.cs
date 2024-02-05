@@ -5,7 +5,6 @@ using UnityEngine;
 public class Parralax : MonoBehaviour
 {
     [SerializeField] Camera cam;
-    [SerializeField] Transform target;
     [SerializeField] float parralaxFactor;
     Vector2 startPosition;
 
@@ -18,6 +17,6 @@ public class Parralax : MonoBehaviour
 
     void FixedUpdate()
     {
-        transform.position = startPosition + travel * parralaxFactor;
+        transform.position = startPosition + (travel * parralaxFactor);
     }
 }
