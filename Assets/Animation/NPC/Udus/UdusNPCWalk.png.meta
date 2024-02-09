@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 3c1827140b4d3414ca34eec41431f625
+guid: 9eed2af0f9ac68c469790b2891a15da3
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -108,70 +108,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites:
-    - serializedVersion: 2
-      name: WalkCyclePart1_0
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 229
-        height: 244
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1034ace18a29f7d49963c636f1b358d5
-      internalID: 756646535
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: WalkCyclePart1_1
-      rect:
-        serializedVersion: 2
-        x: 229
-        y: 0
-        width: 196
-        height: 244
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0f49f4fd1ef63d345acd5dc084eebd24
-      internalID: 589650448
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: WalkCyclePart1_2
-      rect:
-        serializedVersion: 2
-        x: 425
-        y: 0
-        width: 232
-        height: 244
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 17c0c46a72ffbb540b03f62d6530c956
-      internalID: -33969876
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
+    sprites: []
     outline: []
     physicsShape: []
     bones: []
@@ -182,10 +119,7 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      WalkCyclePart1_0: 756646535
-      WalkCyclePart1_1: 589650448
-      WalkCyclePart1_2: -33969876
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
