@@ -7,7 +7,7 @@ public class Rotator : MonoBehaviour
 {
     Vector3 mousePosition;
     Vector2 rotationVector;
-    float angle;
+    
     
     void Update()
     {
