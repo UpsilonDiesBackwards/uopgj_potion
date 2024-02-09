@@ -28,7 +28,7 @@ public class MapOpen : MonoBehaviour
     void OpenMap()
     {
         mapScreen.SetActive(true);
-        Time.timeScale = 1f;
+        Time.timeScale = 0f;
         mapIsOpen = true;
     }
 
