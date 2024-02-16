@@ -19,9 +19,10 @@ public class Harvest : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.E)) //E
+        if (Input.GetKeyDown(KeyCode.E) && CropGrowth.maxGrowth == true) //Checks to see that its on the last sprite in the Grow script
         {
             ChopDown();
+            
         }
       
     }
@@ -31,7 +32,7 @@ public class Harvest : MonoBehaviour
         Vector2 pos = rb.position + moveScript.direction * offsetDist; //player faces the direction they were cutting ...hopefully
         Collider2D[] colliders = Physics2D.OverlapCircleAll(pos, pickUpZone);
 
-        foreach (Collider2D c in colliders) //happens once because theres one tool?? Can someone example this to me - Kaz 
+        foreach (Collider2D c in colliders) //checks to see if the player collider is colliding with the plant ~~ I think - Kaz
         {
             Tool hit = c.GetComponent<Tool>();
             if (hit != null)

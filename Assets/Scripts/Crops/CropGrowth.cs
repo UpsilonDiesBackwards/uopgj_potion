@@ -6,13 +6,14 @@ public class CropGrowth : MonoBehaviour
 {
     public SpriteRenderer spriteRend;
     public Sprite[] sprites;
-    public int currentSprite;
+    public static int currentSprite;
 
     public float timer;
     public float maxTimer = 4f;
 
     private bool canGrow = true;
-    public bool maxGrowth = false;
+    public static bool maxGrowth = false;
+    public static bool resetGrowth = false;
 
     // Update is called once per frame
     void Update()
@@ -22,12 +23,16 @@ public class CropGrowth : MonoBehaviour
             timer += Time.deltaTime;
         }
 
+        if (resetGrowth == true)
+        {
+            currentSprite = 0;
+        }
 
         GrowingGreen();
-        if (currentSprite == sprites.Length) //currently works if the sprite is on number 8
+        if (currentSprite == sprites.Length) //checks to see if the current Growth spite is on the last one in the array
         {
             maxGrowth = true;
-           
+            CropCutDown.lootAmount = 3;
         }
     }
 
@@ -40,7 +45,7 @@ public class CropGrowth : MonoBehaviour
 
             if (currentSprite == sprites.Length)
             {
-                currentSprite = sprites.Length;
+                currentSprite = sprites.Length; //here so it doesnt go past sprites length and keeps it at the same length until harvested
                 canGrow = false;
             }
             timer = 0;
